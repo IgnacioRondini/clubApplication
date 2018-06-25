@@ -87,7 +87,7 @@ public class MembersPresentController extends BaseController implements Initiali
         placeLabel.setText("Endroit: " + place);
         typeLabel.setText("Type de cours: " + type);
         mandatoryLabel.setText("Cours obligatoire?: ");
-        mandatoryCheckBox.setSelected(!cours.getMandatory());
+        mandatoryCheckBox.setSelected(cours.getMandatory());
         mandatoryCheckBox.setDisable(true);
 
     }
