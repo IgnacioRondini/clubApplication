@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clubapplication.ClubController">
+  <children>
+    <Label layoutX="67.0" layoutY="102.0" text="Nom du Club:" />
+    <TextField fx:id="clubNameTextField" layoutX="259.0" layoutY="96.0" prefWidth="200.0" promptText="Entrez le nom de votre club" text="" />
+    <Button id="createClubButton" fx:id="endClubButton" layoutX="249.0" layoutY="174.0" mnemonicParsing="false" onAction="#endClub" stylesheets="@../css/boot.css" text="Créer" />
+  </children>
+</AnchorPane>
