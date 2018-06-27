@@ -157,7 +157,7 @@ public class CoursController extends BaseController implements Initializable {
 
         String place = placeTextField.getText();
         if (place.isEmpty()) {
-            place = "Blankedelle";
+            place = "defaultPlace";
         }
         String type;
         Boolean Selected = (Boolean) ApplicationMain.map.get("typeSelected");
@@ -188,7 +188,7 @@ public class CoursController extends BaseController implements Initializable {
 
         String place = placeTextField.getText();
         if (place.isEmpty()) {
-            place = "Blankedelle";
+            place = "defaultPlace";
         }
         String type;
         Boolean Selected = (Boolean) ApplicationMain.map.get("typeSelected");
